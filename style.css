@@ -5,11 +5,6 @@
     box-sizing: border-box;
 }
 
-.widthMargin {
-    max-width: 80%;
-    margin: auto;
-}
-
 .d_flex {
     display: flex;
 }
@@ -29,9 +24,9 @@ li {
 
 /* header */
 header .container {
-    margin-top: 20px;
-    margin-bottom: 20px;
-
+    padding: 20px 0;
+    max-width: 90%;
+    margin: auto;
 }
 
 header img {
@@ -49,9 +44,36 @@ header img {
     color: #fff;
 }
 
+header nav {
+    max-width: 90%;
+    margin: auto;
+}
+
+header .c_blue {
+    color: blue;
+    position: relative;
+}
+
+header .c_blue:before {
+    content:'';
+    height: 2px;
+    width: 50%;
+    background-color: blue;
+    position: absolute;
+    left: 50%;
+    bottom: -50%;
+    transform: translateX(-50%);
+}
+
+hr {
+    margin: 30px 0;
+}
+
 /* main */
 main .container {
     margin-top: 50px;
+    max-width: 50%;
+    margin: auto;
 }
 
 main h2,

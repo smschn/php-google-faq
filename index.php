@@ -69,7 +69,7 @@
 </head>
 <body>
     <header>
-        <div class="container widthMargin d_flex jc_sb">
+        <div class="container d_flex jc_sb">
             <div class="d_flex jc_sb al_m">
                 <img src="img/google.png" alt="Google">
                 <h1>Privacy e Termini</h1>
@@ -79,19 +79,19 @@
                 <span id="profile">A.</span>
             </div>
         </div>
-        <nav class="widthMargin">
+        <nav>
             <ul class="d_flex">
                 <li>Introduzione</li>
                 <li>Norme sulla privacy</li>
                 <li>Termini di servizio</li>
                 <li>Tecnologie</li>
-                <li>Domande frequenti</li>
+                <li class="c_blue">Domande frequenti</li>
             </ul>
         </nav>
     </header>
     <hr>
     <main>
-        <div class="container widthMargin">
+        <div class="container">
             
             <?php
                 foreach($faq as $singleFaq) {
