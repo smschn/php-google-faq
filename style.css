@@ -1,0 +1,50 @@
+/*general rules*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.widthMargin {
+    max-width: 80%;
+    margin: auto;
+}
+
+.d_flex {
+    display: flex;
+}
+
+.jc_sb {
+    justify-content: space-between;
+}
+
+.al_m {
+    align-items: center;
+}
+
+li {
+    margin-right: 16px;
+    list-style: none;
+}
+
+/* header */
+header .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+header img {
+    max-width: 200px;
+}
+
+#profile {
+    width: 50px;
+    height: 50px;
+    background-color: lightslategray;
+    border-radius: 50%;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+}
