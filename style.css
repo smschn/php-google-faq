@@ -48,3 +48,14 @@ header img {
     line-height: 50px;
     color: #fff;
 }
+
+/* main */
+main .container {
+    margin-top: 50px;
+}
+
+main h3,
+main p {
+    margin: 20px 0;
+    text-align: center;
+}

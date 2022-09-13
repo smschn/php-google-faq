@@ -63,7 +63,16 @@
     </header>
     <hr>
     <main>
-        
+        <div class="container widthMargin">
+            
+            <?php
+                foreach($faq as $singleFaq) {
+                    echo '<h3>' . $singleFaq['question'] . '</h3>';
+                    echo '<p>' . $singleFaq['answer'] . '</p>';
+                }
+            ?>
+
+        </div>
     </main>
 </body>
 </html>
